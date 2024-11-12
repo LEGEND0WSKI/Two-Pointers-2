@@ -5,7 +5,7 @@
 # We have to remove duplicate eliments in an array while keeping atleast k copies and not beyond k.
 # We initialize a slow pointer and a fast pointer. slow pointer will be where the swapping will happen and fast point will check the element.
 # if we find the same element previosuly we will now check the count,( if c > k  elsif count < k swap s++) . fast pointer keeps moving.
-# finally we return SLOW pointer index.
+# finally we return SLOW pointer index. // also check k-2 i algorithm.
 
 # // Your code here along with comments explaining your approach
 class Solution:
